@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colour Game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<div id="head">
+		<div class="container">
+			<h1>Awesome RGB Game</h1>
+			<h2 id="colorDisplay"></h2>
+			<h3>is the same as...?</h3>
+		</div>
+	</div>
+	<nav>
+		<div class="container">
+			<ul class="nav-start">
+				<li id="reset">Change Colours</li>
+			</ul>
+			<p id="message"></p>
+			<ul class="nav-end">
+				<li class="mode">Easy</li>
+				<li class="mode selected">Hard</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container" id="gameCanvas">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
