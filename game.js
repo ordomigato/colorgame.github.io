@@ -62,7 +62,7 @@ function reset(){
 	answer = pickedAnswer();
 	colorDisplay.textContent = answer;
 	message.textContent = "";
-	reset.textContent = "Change Colours"
+	resetBtn.textContent = "Change Colours"
 	for(var i = 0; i < squares.length; i++){
 		if(colors[i]){
 			squares[i].style.display = "block";
