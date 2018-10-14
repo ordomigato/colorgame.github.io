@@ -42,7 +42,7 @@ function setupSquares(){
 				winningChange(choice);
 				head.style.backgroundColor = choice;
 				document.querySelector("nav").style.backgroundColor = choice;
-				reset.textContent = "PLAY AGAIN";
+				resetBtn.textContent = "PLAY AGAIN";
 			} else {
 				this.style.backgroundColor = "#333333";
 				message.textContent = "Try Again";
